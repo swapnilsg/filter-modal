@@ -8,35 +8,36 @@ const initialElements = [
     type: "input",
     placeholder: "enter your name",
     value: "",
-    label: "name"
+    label: "Name"
   },
   {
     type: "textArea",
     placeholder: "add description",
-    label: "about you",
+    label: "About you",
     value: ""
   },
   {
     type: "checkboxGroup",
-    name: 'select',
+    name: 'Interested',
     elements: [
-      { name: "first", value: "first", checked: false },
-      { name: "second", value: "second", checked: false }
+      { name: "Front-end", value: "forntEnd", checked: false },
+      { name: "Backend", value: "backend", checked: false },
+      {name: "Full-stack", value: "fullStack", checked:false} 
     ]
   },
   {
     type: "radioGroup",
-    name: "gender",
+    name: "Looking for",
     value: "",
     elements: [
-      { name: "first", value: "first" },
-      { name: "second", value: "second" }
+      { name: "part-time", value: "partTime" },
+      { name: "Full-time", value: "fullTime" }
     ]
   },
   {
     type: "select",
     options: ["INDIA", "USA", "UAE", "UK"],
-    label: "country",
+    label: "Country",
     value: ""
   }
 ];
