@@ -2,19 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +10,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .modal-container {
@@ -42,38 +26,67 @@
 }
 
 .modal-content{
-  height: 50%;
-  width: 50%;
+  height: 60%;
+  width: 55%;
   background-color: white;
   position: relative;
 }
 .modal-body{
-  height: calc(100% - 40px);
+  height: calc(100% - 100px);
   overflow: auto;
   padding: 20px;
 }
 .footer{
-  display: flex;
+    display: flex;
     position: absolute;
     bottom: 20px;
-    margin: auto;
     width: 100%;
-    float: right;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 .element-item {
   padding: 10px;
   font-size: 14px;
+  display: flex;
+  align-items: center;
 }
 .element-item >label {
   padding-right: 15px;
 }
+.buttons{
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  margin: 0 20px;
+}
+.footer :first-child {
+  background-color: #76B3FA
+}
+.footer :nth-child(2) {
+  background-color: #D2D2D2
+}
+.filter-button{
+    background-color: #1abc9c;
+    border: none;
+    height: 3rem;
+    width: 200px;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filter-button:hover, .buttons:hover {
+  box-shadow: 3px 3px grey;
+  outline: none;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item {
+  width: 40%;
+  font-size: 14px;
+}
+
+.group-elements {
+  display: flex;
+  align-items: center;
 }
