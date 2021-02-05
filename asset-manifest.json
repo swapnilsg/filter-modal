@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/filter-modal/static/css/main.a9b2ad45.chunk.css",
+    "main.js": "/filter-modal/static/js/main.a2058dae.chunk.js",
+    "main.js.map": "/filter-modal/static/js/main.a2058dae.chunk.js.map",
+    "runtime-main.js": "/filter-modal/static/js/runtime-main.66de95ad.js",
+    "runtime-main.js.map": "/filter-modal/static/js/runtime-main.66de95ad.js.map",
+    "static/js/2.aa660180.chunk.js": "/filter-modal/static/js/2.aa660180.chunk.js",
+    "static/js/2.aa660180.chunk.js.map": "/filter-modal/static/js/2.aa660180.chunk.js.map",
+    "static/js/3.acb2a229.chunk.js": "/filter-modal/static/js/3.acb2a229.chunk.js",
+    "static/js/3.acb2a229.chunk.js.map": "/filter-modal/static/js/3.acb2a229.chunk.js.map",
+    "index.html": "/filter-modal/index.html",
+    "static/css/main.a9b2ad45.chunk.css.map": "/filter-modal/static/css/main.a9b2ad45.chunk.css.map",
+    "static/js/2.aa660180.chunk.js.LICENSE.txt": "/filter-modal/static/js/2.aa660180.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66de95ad.js",
+    "static/js/2.aa660180.chunk.js",
+    "static/css/main.a9b2ad45.chunk.css",
+    "static/js/main.a2058dae.chunk.js"
+  ]
+}
